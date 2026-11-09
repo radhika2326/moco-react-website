@@ -1,0 +1,58 @@
+
+.cta {
+  background: #336b4c;
+  padding: 110px 5%;
+  text-align: center;
+  color: #fff;
+}
+
+.cta__content {
+  max-width: 1050px;
+  margin: auto;
+}
+
+.cta__content h2 {
+  font-family: var(--font-head);
+  font-size: clamp(38px, 5vw, 60px);
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+
+.cta__content p {
+  max-width: 700px;
+  margin: 0 auto 42px;
+  color: #dce9df;
+  font-size: 21px;
+  line-height: 1.6;
+}
+
+.cta__button {
+  display: inline-block;
+  background: #fff;
+  color: #336b4c;
+  padding: 22px 40px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.cta__button:hover {
+  background: #e8f0eb;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+  .cta {
+    padding: 75px 6%;
+  }
+
+  .cta__content p {
+    font-size: 17px;
+  }
+
+  .cta__button {
+    padding: 17px 25px;
+    font-size: 16px;
+  }
+}
